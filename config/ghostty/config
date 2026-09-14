@@ -1,0 +1,19 @@
+# Use the user's login shell (zsh in the base module).
+font-family = JetBrainsMono Nerd Font
+font-size = 12
+
+window-padding-x = 12
+window-padding-y = 12
+background-opacity = 1
+# Ghostty measures scrollback in bytes, not lines.
+scrollback-limit = 10000000
+
+background = #1e1e2e
+foreground = #cdd6f4
+cursor-color = #f5e0dc
+cursor-text = #1e1e2e
+selection-background = #45475a
+selection-foreground = #cdd6f4
+
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
